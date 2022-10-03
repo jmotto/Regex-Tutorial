@@ -1,10 +1,10 @@
 # Tutorial: Regex Matching an Email
 
-Regular Expressions (Regex) are a string of characters that define a search pattern to help easily manage data. This tutorial will explore using the regex for matching an email address. 
+A Regular Expression (Regex) is a string of characters that define a search pattern to help easily manage data. This tutorial will explore using the regex for matching an email address. 
 
 ## Summary
 
-This tutorial will breakdown and describe the different parts of the regex used to match emails using the following expression: `/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/`. Using regex can be useful for validating email addresses.
+This tutorial will breakdown each part of the regular expression used to match emails.  The regex for matching emails we will dissect is: `/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/`. Using a regex can be useful for validating email addresses.
 
 ## Table of Contents
 
