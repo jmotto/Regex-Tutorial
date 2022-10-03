@@ -70,5 +70,5 @@ If the backslash was omitted, the dot `.` will match almost any character, there
 ## Author
 
 Jamie Otto 
-- [Github]("https://github.com/jmotto/Regex-Tutorial.git")
-- [Github Docs gist]("https://gist.github.com/597a54ba41f2ff9b30fd87aaf5985e1a.git")
+- Github https://github.com/jmotto/Regex-Tutorial.git
+- Github Docs gist https://gist.github.com/597a54ba41f2ff9b30fd87aaf5985e1a.git
