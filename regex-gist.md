@@ -56,21 +56,7 @@ A character class matches any symbol from a certain character set. For example, 
 
 Character escapes are used when a character is needed to be used literally and are shown by a backslash \ . 
 
-Character escapes are shown by a backslash symbol (\), and this can be used to escape a character that will 
-is due to be interpreted differently. A great example of this is the dot (.) symbol that we have used within 
-our email Regex example. We can see this in every group construct we have within our expression - 
- 
-•	([a-z0-9_\.-]+)
-•	([\da-z\.-]+)
-•	([a-z\.]{2,6})
- 
-In all 3 of the examples above, we can see (\.) symbol being used to represent a literal dot (.). A single dot
-in regex expressions, will represent any character whatsoever, so if we did not use this character escape prior
-to using the dot, then we would be searching for every character possible, which we do not want in our username. 
- 
-It is important to note that when inside bracket expressions [ ], all special characters will lose their effect. 
-However, the backslash (\) still seems to retain effect. This can be seen within the Regex expression for the '\.', and the '\d'
-used inside the square brackets. 
+
 
 ## Author
 
